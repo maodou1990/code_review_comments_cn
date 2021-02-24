@@ -1,4 +1,4 @@
-# Code Review 
+# Code Review Comments 大致翻译一下
 
 原文地址 https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences
 
