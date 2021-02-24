@@ -1,4 +1,4 @@
-# Code Review Comments 大致翻译一下
+# Code Review Comments 中文翻译
 
 原文地址 https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences
 
@@ -270,7 +270,7 @@ func (t Thinger) Thing() bool { … }
 
 func NewThinger() Thinger { return Thinger{ … } }
 ```
-## Line Length
+## 行长度
 Go代码中没有严格的行长度限制，但要避免行太长。 同样，请勿添加换行符以使行在可读性更强的情况下保持较短（例如，如果它们是重复的）。
 
 在大多数情况下，人们“不自然地”换行（在函数调用或函数声明的中间，或多或少，例如，尽管周围有一些例外情况），如果参数数量合理且合理，则不需要换行简短的变量名。 长行似乎包含长名，而摆脱长名会很有帮助。 
